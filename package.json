@@ -14,9 +14,6 @@
     "data:destroy": "node backend/seeder -d",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
-  "engines": {
-    "node": "14.17.0"
-  },
 
   "author": "Masoud Javadi",
   "license": "MIT",
